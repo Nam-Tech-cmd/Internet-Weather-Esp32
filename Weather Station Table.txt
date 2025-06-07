@@ -177,7 +177,7 @@ void draw() {
     int w = 75;
     int h = 40;
     tft.fillSmoothRoundRect(x, y, w, h, 4, grays[9], bck);
-    tft.setTextDatum(MC_DATUM);
+    tft.setTextDatum(4);
     tft.setTextColor(grays[1], grays[9]);
     tft.drawString(PPlbl[i], x + w / 2, y + 10);
     tft.setTextColor(grays[2], grays[9]);
